@@ -3,7 +3,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "ssh://git@github.com/may-den/php-yaml"
+            "url": "git@github.com:may-den/php-yaml.git"
         }
 	],
     "description": "ZF2 cron module",
