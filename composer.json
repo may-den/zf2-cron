@@ -29,7 +29,7 @@
         "zendframework/zendframework": "2.*",
         "heartsentwined/arg-validator": "1.*",
         "heartsentwined/background-exec": "1.*",
-        "heartsentwined/zf2-doctrine": "1.*",
+        "may-den/zf2-doctrine": "1.*",
         "heartsentwined/cron-expr-parser": "1.*"
     },
     "require-dev": {
