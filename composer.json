@@ -1,5 +1,11 @@
 {
     "name": "heartsentwined/zf2-cron",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "ssh://github.com/may-den/zf2-cron"
+        }
+	],
     "description": "ZF2 cron module",
     "license": "GPL-3.0",
     "keywords": ["cron", "zf2", "zendframework"],
@@ -19,7 +25,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "may-den/yaml": "1.*",
+        "may-den/yaml": "dev-master#9939384",
         "zendframework/zendframework": "2.*",
         "heartsentwined/arg-validator": "1.*",
         "heartsentwined/background-exec": "1.*",
