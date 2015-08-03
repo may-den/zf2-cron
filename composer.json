@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "may-den/yaml": "dev-master#9939384",
+        "may-den/yaml": "dev-master",
         "zendframework/zendframework": "2.*",
         "heartsentwined/arg-validator": "1.*",
         "heartsentwined/background-exec": "1.*",
