@@ -1,16 +1,6 @@
-di:
-    instance:
-        alias:
-            cron: Heartsentwined\Cron\Service\Cron
-        cron:
-            parameters:
-                #em: doctrine.entitymanager.orm_default
-                #can't inject EntityManager here; will pull from controller
-                scheduleAhead: 60
-                scheduleLifetime: 60
-                maxRunnintTime: 60
-                successLogLifetime: 300
-                failureLogLifetime: 10080
+service_manager:
+     invokables:
+        cron: Heartsentwined\Cron\Service\Cron
 doctrine:
     driver:
         cron_driver:
