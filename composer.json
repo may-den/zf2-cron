@@ -4,6 +4,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:may-den/php-yaml.git"
+        },
+	{
+            "type": "vcs",
+            "url": "git@github.com:may-den/zf2-doctrine.git"
         }
 	],
     "description": "ZF2 cron module",
@@ -24,12 +28,12 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
+        "php": "^7.4",
         "may-den/yaml": "1.0.*",
         "zendframework/zendframework": "2.*",
         "heartsentwined/arg-validator": "1.*",
         "heartsentwined/background-exec": "1.*",
-        "may-den/zf2-doctrine": "1.0.*",
+        "may-den/zf2-doctrine": "dev-temp/php74",
         "heartsentwined/cron-expr-parser": "1.*"
     },
     "require-dev": {
